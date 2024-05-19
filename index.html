@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap');
+        </style>
+        <link rel="stylesheet" href="./style.css">
+        <title>Slider</title>
+    </head>
+    <body>
+        <main class="container">
+            <section class="left-side">
+                <div class="left-side__title">
+                    <h1 class="left-side__title_text">COMPLETED PROJECTS</h1>
+                    <img src="./img/line.svg" alt="line" class="line">
+                </div>
+                <p class="left-side__text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
+                <div class="left-side__list">
+                    <div class="left-side__list_block">
+                        <h2 class="left-side__list-title">CITY:</h2>
+                        <p class="list__text city-text"></p>
+                    </div>
+                    <div class="left-side__list_block">
+                        <h2 class="left-side__list-title">APARTMENT AREA:</h2>
+                        <p class="list__text area-text"></p>
+                    </div>
+                    <div class="left-side__list_block">
+                        <h2 class="left-side__list-title">REPAIR TIME:</h2>
+                        <p class="list__text time-text"></p>
+                    </div>
+                    <div class="left-side__list_block">
+                        <h2 class="left-side__list-title">REPAIR COST:</h2>
+                        <p class="list__text cost-text"></p>
+                    </div>            
+                </div>
+                <div class="left-side__buttons">
+                    <img src="./img/arrow left.svg" alt="left" class="prev">
+                    <div class="dots"></div>
+                    <img src="./img/arrow right.svg" alt="right" class="next">
+                </div>
+            </section>
+            <section class="right-side">
+                <nav class="right-side__nav">
+                    <h3 class="nav__button active__nav">ROSTOV-ON-DON, ADMIRAL</h3>
+                    <h3 class="nav__button">SOCHI THIEVES</h3>
+                    <h3 class="nav__button">ROSTOV-ON-DON PATRIOTIC</h3>
+                </nav>
+                <div class="right-side__img"></div>
+            </section>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
